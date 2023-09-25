@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://{diremu}.github.io/{Codespace}",
+  "homepage": "http://diremu.github.io/Codespace",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{diremu}.github.io/{Codespace}'",
+    "build-gh": "parcel build --public-url 'https://diremu.github.io/Codespace'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
