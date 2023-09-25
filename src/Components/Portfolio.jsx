@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/work-desk.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "office desk with computer, notebook, and coffee";
 
 /**
  * Project list
@@ -53,6 +53,11 @@ const projectList = [
     description:
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+  },
+  {
+    title: "JavaScript for Beginners",
+    description: "Video courses to take an absolute beginner in JavaScript to a more advanced level.",
+    url: "https://frontendmasters.com/courses/javascript-first-steps/",
   },
 ];
 
